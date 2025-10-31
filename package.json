@@ -1,7 +1,7 @@
 {
   "name": "neetrino-test-server",
   "version": "1.0.0",
-  "description": "Simple test Node.js server for Neetrino",
+  "description": "11111111Simple test Node.js server for Neetrino",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
