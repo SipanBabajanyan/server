@@ -45,11 +45,33 @@ NODE_ENV=production
 PORT=3000
 ```
 
+## 📚 Документация
+
+Полные инструкции по настройке и деплою:
+
+1. **[1.SETUP_SERVER.md](./1.SETUP_SERVER.md)** - Настройка сервера с нуля (Ubuntu, firewall, fail2ban)
+2. **[2.NODEJS_SETUP.md](./2.NODEJS_SETUP.md)** - Установка Node.js, PM2, Nginx
+3. **[3.DEPLOY_INSTRUCTIONS.md](./3.DEPLOY_INSTRUCTIONS.md)** - Загрузка проекта на GitHub и запуск на сервере
+4. **[4.UPDATE_SERVER.md](./4.UPDATE_SERVER.md)** - Обновление проекта на сервере
+5. **[5.DOMAIN_SETUP_CLOUDFLARE.md](./5.DOMAIN_SETUP_CLOUDFLARE.md)** - Полная настройка домена с Cloudflare Proxy ⭐
+
+> **Для подключения домена к проекту используй:** [`5.DOMAIN_SETUP_CLOUDFLARE.md`](./5.DOMAIN_SETUP_CLOUDFLARE.md)
+
+## 🌐 Информация о сервере
+
+- **IP:** 91.98.126.221
+- **Домен:** server.neetrino.com
+- **Директория:** `/var/www/server.neetrino.com/`
+- **Cloudflare:** Proxy включен (Proxied = auto), SSL = Full
+
 ## 🛠️ Технологии
 
 - Node.js
 - Express.js
 - PM2 (для продакшена)
+- Nginx (reverse proxy)
+- Let's Encrypt (SSL сертификаты)
+- Cloudflare (CDN и DNS)
 
 ## 📝 Лицензия
 
